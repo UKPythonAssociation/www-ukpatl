@@ -9,4 +9,4 @@ The idea is that this is relatively small and self contained static site contain
 
 Kristian Glass / @doismellburning maintains this site.
 
-The live instance is hosted on Netlify and auto-deploys from `main` with GitHub hooks.
+The live instance is hosted on Netlify at https://glistening-kashata-2a8d56.netlify.app. and auto-deploys from `main` with GitHub hooks.
