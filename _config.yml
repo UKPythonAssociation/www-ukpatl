@@ -21,7 +21,7 @@
 title: UKPA Trading Ltd.
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  UKPA Trading Ltd. is a limited company registered in England and Wales.
+  UKPA Trading Ltd. is a limited company (12254310) registered in England and Wales.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
