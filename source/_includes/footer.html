@@ -7,18 +7,31 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
+        <p class="p-name">
+          {%- if site.author -%}
+            {{ site.author | escape }}
+          {%- else -%}
+            {{ site.title | escape }}
+          {%- endif -%}
+        </p>
+        {%- if site.email -%}
+          <p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        {%- endif -%}
+        <address itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+          <div itemprop="streetAddress">
+            c/o Acconomy, Arena Business Centre,
+            Holyrood Close
+          </div>
+          <div itemprop="addressLocality">
+            Poole
+          </div>
+          <div itemprop="postalCode">
+            BH17 7FJ
+          </div>
+          <div itemprop="addressCountry">
+            United Kingdom
+          </div>
+        </address>
       </div>
 
       <div class="footer-col footer-col-2">
